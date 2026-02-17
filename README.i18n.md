@@ -1,0 +1,25 @@
+# OpenWrt Smart Reboot - Multilingual READMEs
+
+- Korean (default): [README.md](README.md)
+- English: [README.en.md](README.en.md)
+
+## Language files (18)
+
+- Arabic: [README.ar.md](README.ar.md)
+- German: [README.de.md](README.de.md)
+- Spanish: [README.es.md](README.es.md)
+- French: [README.fr.md](README.fr.md)
+- Indonesian: [README.id.md](README.id.md)
+- Italian: [README.it.md](README.it.md)
+- Japanese: [README.ja.md](README.ja.md)
+- Korean: [README.ko.md](README.ko.md)
+- Dutch: [README.nl.md](README.nl.md)
+- Polish: [README.pl.md](README.pl.md)
+- Portuguese (Brazil): [README.pt_BR.md](README.pt_BR.md)
+- Russian: [README.ru.md](README.ru.md)
+- Thai: [README.th.md](README.th.md)
+- Turkish: [README.tr.md](README.tr.md)
+- Ukrainian: [README.uk.md](README.uk.md)
+- Vietnamese: [README.vi.md](README.vi.md)
+- Chinese (Simplified): [README.zh_Hans.md](README.zh_Hans.md)
+- Chinese (Traditional): [README.zh_Hant.md](README.zh_Hant.md)
