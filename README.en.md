@@ -1,5 +1,7 @@
 # OpenWrt Smart Reboot (with LuCI)
 
+- OpenWrt upstream submission guide: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+
 This package reboots the router at a configured dawn time only when network traffic is idle.
 
 ## Components
