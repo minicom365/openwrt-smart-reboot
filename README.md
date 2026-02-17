@@ -1,5 +1,7 @@
 # OpenWrt Smart Reboot (LuCI 지원)
 
+- English: [README.en.md](README.en.md)
+
 네트워크 사용량이 낮을 때만 지정한 새벽 시간에 재부팅하는 패키지입니다.
 
 ## 구성
