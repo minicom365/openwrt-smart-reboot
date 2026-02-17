@@ -2,6 +2,7 @@
 'require view';
 'require form';
 'require network';
+'require uci';
 
 return view.extend({
 	load: function() {
@@ -18,28 +19,33 @@ return view.extend({
 		var ifaceMap = {};
 
 		m = new form.Map('smart-reboot', _('Smart Reboot'),
-			_('지정한 새벽 시각에 네트워크가 유휴 상태일 때만 재부팅합니다.'));
+			_('Reboot only when the network is idle at the configured dawn time.'));
 
-		s = m.section(form.TypedSection, 'settings', _('설정'));
+		s = m.section(form.TypedSection, 'settings', _('Settings'));
 		s.anonymous = true;
 
-		o = s.option(form.Flag, 'enabled', _('기능 활성화'));
+		o = s.option(form.Flag, 'enabled', _('Enable'));
 		o.rmempty = false;
 
-		o = s.option(form.Value, 'time', _('재부팅 시각 (HH:MM)'));
+		o = s.option(form.DummyValue, 'last_auto_reboot', _('Last automatic reboot'));
+		o.cfgvalue = function(section_id) {
+			return uci.get('smart-reboot', section_id, 'last_auto_reboot') || _('Never');
+		};
+
+		o = s.option(form.Value, 'time', _('Reboot time (HH:MM)'));
 		o.placeholder = '04:00';
 		o.rmempty = false;
 		o.validate = function(section_id, value) {
 			if (!value || !value.match(/^([01][0-9]|2[0-3]):[0-5][0-9]$/))
-				return _('시간 형식은 HH:MM (24시간제) 이어야 합니다. 예: 04:00');
+				return _('Time format must be HH:MM (24-hour). Example: 04:00');
 
 			return true;
 		};
 
-		o = s.option(form.Flag, 'all_ifaces', _('전체 선택 (모든 인터페이스)'));
+		o = s.option(form.Flag, 'all_ifaces', _('Select all interfaces'));
 		o.rmempty = false;
 
-		o = s.option(form.MultiValue, 'ifaces', _('모니터링 인터페이스'));
+		o = s.option(form.MultiValue, 'ifaces', _('Monitored interfaces'));
 		o.widget = 'select';
 		o.size = 8;
 		o.depends('all_ifaces', '0');
@@ -72,12 +78,12 @@ return view.extend({
 			o.value(ifname, text);
 		});
 
-		o = s.option(form.Value, 'sample_seconds', _('유휴 판별 샘플 시간(초)'));
+		o = s.option(form.Value, 'sample_seconds', _('Idle sampling duration (seconds)'));
 		o.datatype = 'uinteger';
 		o.placeholder = '120';
 		o.rmempty = false;
 
-		o = s.option(form.Value, 'byte_threshold', _('유휴 임계값(바이트)'));
+		o = s.option(form.Value, 'byte_threshold', _('Idle threshold (bytes)'));
 		o.datatype = 'uinteger';
 		o.placeholder = '262144';
 		o.rmempty = false;
