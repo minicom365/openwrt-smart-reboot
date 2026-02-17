@@ -25,4 +25,4 @@ This adds `smart-reboot`, a lightweight OpenWrt utility that performs scheduled 
 - This PR contains backend package only.
 - LuCI frontend is submitted separately in OpenWrt LuCI repository.
 
-Signed-off-by: <YOUR_NAME> <YOUR_EMAIL>
+Signed-off-by: minicom365 <3387910@naver.com>

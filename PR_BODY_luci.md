@@ -29,4 +29,4 @@ This adds LuCI support for `smart-reboot`.
 
 - openwrt/packages PR: <LINK_TO_PACKAGES_PR>
 
-Signed-off-by: <YOUR_NAME> <YOUR_EMAIL>
+Signed-off-by: minicom365 <3387910@naver.com>
