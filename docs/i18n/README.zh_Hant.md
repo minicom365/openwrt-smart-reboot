@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot（LuCI 支援）
 
-- 英文版: [README.en.md](README.en.md)
+- 英文版: [README.en.md](../../README.en.md)
 - 多語言索引: [README.i18n.md](README.i18n.md)
-- OpenWrt 上游提交指南: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- OpenWrt 上游提交指南: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 此套件僅在網路閒置時，於設定的清晨時間自動重新啟動路由器。
 

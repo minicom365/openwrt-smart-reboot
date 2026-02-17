@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (LuCI 지원)
 
-- English: [README.en.md](README.en.md)
+- English: [README.en.md](../../README.en.md)
 - 다국어 인덱스: [README.i18n.md](README.i18n.md)
-- OpenWrt 정규 등록 가이드: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- OpenWrt 정규 등록 가이드: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 네트워크 사용량이 낮을 때만 지정한 새벽 시간에 재부팅하는 패키지입니다.
 

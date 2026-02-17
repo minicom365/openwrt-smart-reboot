@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (mit LuCI)
 
-- Englisch: [README.en.md](README.en.md)
+- Englisch: [README.en.md](../../README.en.md)
 - Mehrsprachen-Index: [README.i18n.md](README.i18n.md)
-- OpenWrt-Upstream-Leitfaden: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- OpenWrt-Upstream-Leitfaden: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Dieses Paket startet den Router nur dann zur konfigurierten Frühzeit neu, wenn das Netzwerk im Leerlauf ist.
 

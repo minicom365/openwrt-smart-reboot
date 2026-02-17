@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (com LuCI)
 
-- Inglês: [README.en.md](README.en.md)
+- Inglês: [README.en.md](../../README.en.md)
 - Índice multilíngue: [README.i18n.md](README.i18n.md)
-- Guia de upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- Guia de upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Este pacote reinicia o roteador no horário de madrugada configurado somente quando a rede está ociosa.
 

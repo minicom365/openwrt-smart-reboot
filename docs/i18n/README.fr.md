@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (avec LuCI)
 
-- Anglais: [README.en.md](README.en.md)
+- Anglais: [README.en.md](../../README.en.md)
 - Index multilingue: [README.i18n.md](README.i18n.md)
-- Guide upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- Guide upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Ce paquet redémarre le routeur à l'heure d'aube configurée uniquement lorsque le réseau est inactif.
 

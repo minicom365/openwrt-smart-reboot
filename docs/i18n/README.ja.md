@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot（LuCI対応）
 
-- 英語版: [README.en.md](README.en.md)
+- 英語版: [README.en.md](../../README.en.md)
 - 多言語インデックス: [README.i18n.md](README.i18n.md)
-- OpenWrt upstream ガイド: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- OpenWrt upstream ガイド: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 ネットワークトラフィックが低い場合のみ、設定した早朝時刻に再起動するパッケージです。
 

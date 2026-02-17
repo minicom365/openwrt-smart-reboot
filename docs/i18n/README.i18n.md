@@ -1,7 +1,7 @@
 # OpenWrt Smart Reboot - Multilingual READMEs
 
-- Korean (default): [README.md](README.md)
-- English: [README.en.md](README.en.md)
+- Korean (default): [README.md](../../README.md)
+- English: [README.en.md](../../README.en.md)
 
 ## Language files (18)
 

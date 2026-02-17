@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (مع LuCI)
 
-- الإنجليزية: [README.en.md](README.en.md)
+- الإنجليزية: [README.en.md](../../README.en.md)
 - فهرس متعدد اللغات: [README.i18n.md](README.i18n.md)
-- دليل الإرسال إلى OpenWrt upstream: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- دليل الإرسال إلى OpenWrt upstream: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 تقوم هذه الحزمة بإعادة تشغيل الموجّه في وقت الفجر المحدد فقط عندما تكون الشبكة في حالة خمول.
 

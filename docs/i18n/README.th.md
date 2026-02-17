@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (รองรับ LuCI)
 
-- ภาษาอังกฤษ: [README.en.md](README.en.md)
+- ภาษาอังกฤษ: [README.en.md](../../README.en.md)
 - ดัชนีหลายภาษา: [README.i18n.md](README.i18n.md)
-- คู่มือส่งขึ้น OpenWrt upstream: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- คู่มือส่งขึ้น OpenWrt upstream: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 แพ็กเกจนี้จะรีบูตเราเตอร์ตามเวลาช่วงเช้ามืดที่กำหนด เฉพาะเมื่อเครือข่ายอยู่ในสถานะว่างเท่านั้น
 

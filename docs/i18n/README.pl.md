@@ -1,8 +1,8 @@
 # OpenWrt Smart Reboot (z LuCI)
 
-- Angielski: [README.en.md](README.en.md)
+- Angielski: [README.en.md](../../README.en.md)
 - Indeks wielojęzyczny: [README.i18n.md](README.i18n.md)
-- Przewodnik upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](OPENWRT_UPSTREAM_SUBMISSION.md)
+- Przewodnik upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Ten pakiet restartuje router o skonfigurowanej porze nad ranem tylko wtedy, gdy sieć jest bezczynna.
 
