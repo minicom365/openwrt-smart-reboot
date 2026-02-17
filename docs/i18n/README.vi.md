@@ -2,7 +2,6 @@
 
 - Tiếng Anh: [README.en.md](../../README.en.md)
 - Chỉ mục đa ngôn ngữ: [README.i18n.md](README.i18n.md)
-- Hướng dẫn upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Gói này chỉ khởi động lại router vào thời điểm rạng sáng đã cấu hình khi mạng ở trạng thái nhàn rỗi.
 

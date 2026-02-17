@@ -2,7 +2,6 @@
 
 - İngilizce: [README.en.md](../../README.en.md)
 - Çok dilli dizin: [README.i18n.md](README.i18n.md)
-- OpenWrt upstream gönderim rehberi: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Bu paket, yönlendiriciyi yapılandırılmış şafak saatinde yalnızca ağ boşta olduğunda yeniden başlatır.
 

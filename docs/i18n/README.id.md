@@ -2,7 +2,6 @@
 
 - Inggris: [README.en.md](../../README.en.md)
 - Indeks multibahasa: [README.i18n.md](README.i18n.md)
-- Panduan upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Paket ini me-reboot router pada waktu dini hari yang dikonfigurasi hanya saat jaringan dalam kondisi idle.
 

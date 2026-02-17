@@ -2,7 +2,6 @@
 
 - Англійська версія: [README.en.md](../../README.en.md)
 - Індекс мов: [README.i18n.md](README.i18n.md)
-- Гайд з upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Цей пакет перезавантажує роутер у заданий ранковий час лише коли мережа вважається неактивною.
 

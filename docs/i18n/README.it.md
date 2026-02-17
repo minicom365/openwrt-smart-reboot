@@ -2,7 +2,6 @@
 
 - Inglese: [README.en.md](../../README.en.md)
 - Indice multilingue: [README.i18n.md](README.i18n.md)
-- Guida upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Questo pacchetto riavvia il router all'orario di alba configurato solo quando la rete è inattiva.
 

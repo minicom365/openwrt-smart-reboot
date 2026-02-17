@@ -2,7 +2,6 @@
 
 - Английская версия: [README.en.md](../../README.en.md)
 - Индекс языков: [README.i18n.md](README.i18n.md)
-- Руководство по upstream OpenWrt: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Этот пакет перезагружает роутер в заданное раннее время только когда сеть считается неактивной.
 

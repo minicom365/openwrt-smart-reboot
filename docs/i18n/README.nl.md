@@ -2,7 +2,6 @@
 
 - Engels: [README.en.md](../../README.en.md)
 - Meertalige index: [README.i18n.md](README.i18n.md)
-- OpenWrt upstream-handleiding: [OPENWRT_UPSTREAM_SUBMISSION.md](../../OPENWRT_UPSTREAM_SUBMISSION.md)
 
 Dit pakket herstart de router op het ingestelde vroege tijdstip alleen wanneer het netwerk inactief is.
 
